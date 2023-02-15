@@ -5,9 +5,6 @@ import { TextField, Typography, Button, FormControl, FormLabel, RadioGroup, Form
 import { useFormik } from "formik";
 import { userInfoSchema } from '../validationSchema';
 import { CodeContext } from '../context/ContextProvider';
-import {
-    makeStyles,
-} from "@material-ui/core";
 
 const UserInfo = () => {
     const { userInfo, steps, activeStep, setActiveStep, setUserInfo } = useContext(CodeContext);
